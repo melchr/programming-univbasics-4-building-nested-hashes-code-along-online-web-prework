@@ -3,7 +3,7 @@ def bonus
    :montague => {
       :patriarch => {name: "Lord Montague", age: "53"},
       :matriarch => {name: "Lady Montague", age: "54"},
-      :hero => {name: "Romeo", age: "15", status: "dead"},
+      :hero => {name: "Romeo", age: "15", status: "alive"},
       :hero_friends => [
          {name: "Benvolio", age: "17", attitude: "worried"},
          {name: "Steven", age: "30", attitude: "confused"}
@@ -20,7 +20,9 @@ def bonus
    }
   }
 
-  #code your solution here:
+epic_tragedy[:montague][:patriarch][:name] = "Michael Jordan"
+ 
+puts epic_tragedy
 
   
 
